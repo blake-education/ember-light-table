@@ -25,7 +25,7 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "vertical-collection": "git+ssh://git@github.com/h2blake/vertical-collection.git",
+    "@html-next/vertical-collection": "git+ssh://git@github.com/blake-education/vertical-collection.git#d19d2bd3c263370ca6bb14bf8bc2ec9757fa12c9",
     "ember-cli-babel": "^7.7.0",
     "ember-cli-htmlbars": "^2.0.3",
     "ember-cli-string-helpers": "^1.8.1",
@@ -34,7 +34,8 @@
     "ember-in-viewport": "~3.0.3",
     "ember-scrollable": "^0.5.0",
     "ember-truth-helpers": "^2.0.0",
-    "ember-wormhole": "^0.5.4"
+    "ember-wormhole": "^0.5.4",
+    "vertical-collection": "git+ssh://git@github.com/blake-education/vertical-collection.git#d19d2bd3c263370ca6bb14bf8bc2ec9757fa12c9"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.7.0",
@@ -51,7 +52,6 @@
     "ember-cli-inject-live-reload": "^1.7.0",
     "ember-cli-less": "^1.5.5",
     "ember-cli-mirage": "^0.4.1",
-    "ember-qunit": "^4.0.0",
     "ember-cli-release": "1.0.0-beta.2",
     "ember-cli-shims": "^1.2.0",
     "ember-cli-sri": "^2.1.0",
@@ -68,6 +68,7 @@
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-native-dom-helpers": "^0.6.2",
     "ember-one-way-controls": "^3.0.1",
+    "ember-qunit": "^4.0.0",
     "ember-resolver": "^4.5.0",
     "ember-responsive": "^2.0.5",
     "ember-source": "~3.1.0",
@@ -80,7 +81,6 @@
     "yuidoc-ember-theme": "^2.0.1"
   },
   "resolutions": {
-    "ember-element-resize-detector": "0.3.0",
     "ip-regex": "^2.1.0"
   },
   "engines": {
