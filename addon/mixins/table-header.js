@@ -141,7 +141,8 @@ export default Mixin.create({
     //   const scrollbarThickness = this.get('scrollbarThickness.thickness');
     //   return cssStyleify({ paddingRight: `${scrollbarThickness}px` });
     // }
-    return '';
+
+    return;
   }).readOnly(),
 
   init() {
