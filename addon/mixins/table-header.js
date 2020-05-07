@@ -137,10 +137,10 @@ export default Mixin.create({
   }).readOnly(),
 
   style: computed('sharedOptions.occlusion', function() {
-    if (this.get('sharedOptions.occlusion')) {
-      const scrollbarThickness = this.get('scrollbarThickness.thickness');
-      return cssStyleify({ paddingRight: `${scrollbarThickness}px` });
-    }
+    // if (this.get('sharedOptions.occlusion')) {
+    //   const scrollbarThickness = this.get('scrollbarThickness.thickness');
+    //   return cssStyleify({ paddingRight: `${scrollbarThickness}px` });
+    // }
 
     return;
   }).readOnly(),
